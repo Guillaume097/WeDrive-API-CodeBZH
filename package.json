@@ -2,10 +2,10 @@
   "name": "wedrive-api",
   "version": "1.0.0",
   "description": "WeDrive API : Express, Mongo, Node",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"node index.js"
+    "dev":"node src/server.js"
   },
   "repository": {
     "type": "git",
