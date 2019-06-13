@@ -9,3 +9,7 @@ Dans ce projet, nous allons utiliser différents outils que nous allons installe
 ## Qu'est-ce qu'il faut faire ? 
 
 - Création du fichier ``package.json``
+
+## Et ensuite ? 
+
+Vous avez fini ? Bravo ! Vous pouvez passer à la step-1-2 avec la commande git checkout step-1-2
