@@ -30,3 +30,6 @@ Mongoose est ce qu'on appelle un ODM (Object Data Modeling), un outil qui va per
 
 - Installer ExpressJS
 - Installer Mongoose
+
+## Et ensuite ? 
+Vous avez fini ? Bravo ! Vous pouvez passer à la step-1-3 avec la commande git checkout step-1-3
