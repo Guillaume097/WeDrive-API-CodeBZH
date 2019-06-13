@@ -2,6 +2,12 @@
 
 Ce projet est la suite direct de notre analyse pour construire "WeDrive", une plateforme de mise en relations entre particuliers pour la location de véhicules.
 
+L'objectif des prochains jours va être de construire l'API de WeDrive pour pouvoir l'exploiter pour construire les différentes interfaces clientes de cette API.
+
+Pour ce projet, nous avons choisi de partir sur la création d'une API REST, c'est à dire fonctionnant à travers le protocol http. Nous avons choisi aussi de retourner des ressources dans le format JSON.
+
+Pour plus d'informations sur les API REST, je vous invite à découvrir ce [https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web/3501901-pourquoi-rest](lien). 
+
 ## Installation
 
 Ce projet doit être récupéré avec la commande Git clone et l'adresse du GitHub. Pour l'installer, vous devez faire un ``git clone https://github.com/TonyCois/WeDrive-API-CodeBZH.git``
