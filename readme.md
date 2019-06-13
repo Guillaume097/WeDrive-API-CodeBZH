@@ -1,17 +1,17 @@
-# WeDrive API - Step 1-3 - Code.BZH 2019
+# WeDrive API - Step 1-4 - Code.BZH 2019
 
-Maintenant que nous avons installé Express, nous allons créer un fichier ``ìndex.js`` à la racine du projet qui sera le point d'entrée de notre application.
+Dans la précédente étape, nous avons réussi à faire notre premier serveur, bravo ! 
 
-C'est dans ce fichier que nous allons créer notre serveur avec notre première route. Cette route affichera un message "Hello Code.BZH !".
+Avant de passer plus loin, nous allons modifier notre package.json pour écrire un script NPM. 
 
-![Image](https://github.com/TonyCois/WeDrive-API-CodeBZH/blob/step-1-3/assets/img/hello.png)
+Les scripts NPM permettent de lancer des tâches par la ligne de commande ``npm run script``. Concrètement ici, l'objectif est de créer une tâche qui lance le serveur. 
 
 ## Qu'est-ce qu'il faut faire ? 
 
-- Créer le fichier index.js 
-- À l'intérieur, démarrer un serveur 
-- À l'intétieur, créer une première route comme l'image
+- Modifier le ``package.json`` pour ajouter un script "dev" qui lance le serveur. 
+
+Lorsqu'on exécutera la commande ``npm run dev``, cela lancera le serveur et cela produira le message "Hello Code.bzh" comme lors de l'étape précédente.
 
 ## Et ensuite ? 
 
-Vous avez fini ? Bravo ! Vous pouvez passer à la step-1-4 avec la commande ```git checkout step-1-4```
+Vous avez fini ? Bravo ! Vous pouvez passer à la step-1-5 avec la commande ```git checkout step-1-5```
