@@ -1,13 +1,16 @@
-# WeDrive API - Step 1-7 - Code.BZH 2019
+# WeDrive API - Step 1-8 - Code.BZH 2019
 
 Dans cette première partie, nous faisons surtout de la configuration et poser les bases pour notre API. 
 
-Ici nous allons installer (babel)[https://babeljs.io/] qui est une suite d'outils permettant d'utiliser les standardisations plus récente du JS, à savoir ES6/ES7/ES8/...
+Ici nous allons installer (Nodemon)[https://github.com/remy/nodemon] qui va nous permettre de recharger le projet à chaque modification de fichier pour faciliter le développement.
+
+Ce faisant, nous allons créer 2 environnement : DEV et PROD. La différence pour le moment est qu'en DEV le server sera en "live-reload" mais pas en production.
 
 
 ## Qu'est-ce qu'il faut faire ? 
 
-- lancer cette commande : ``npm install babel-cli babel-preset-env babel-loader babel-core --save-dev``
+- Installer Nodemon
+- Modifier la tâche "dev" par "nodemon src/server.js --exec babel-node --presets babel-preset-env"
 
 
 ## Et ensuite ? 
