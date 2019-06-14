@@ -4,8 +4,7 @@
   "description": "WeDrive API : Express, Mongo, Node",
   "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"node src/server.js"
+    "dev": "nodemon src/server.js --exec babel-node --presets babel-preset-env"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/TonyCois/WeDrive-API-CodeBZH/issues"
   },
-  "homepage": "https://github.com/TonyCois/WeDrive-API-CodeBZH#readme"
+  "homepage": "https://github.com/TonyCois/WeDrive-API-CodeBZH#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "mongoose": "5.5.15"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0"
+  }
 }
