@@ -18,4 +18,4 @@ Pour cela, on va installer et configurer deux outils utile pour améliorer la qu
 
 ## Et ensuite ? 
 
-Vous avez fini ? Bravo ! Vous pouvez passer à la step-2-1 avec la commande ```git checkout step-2-1```
+Vous avez fini ? Bravo ! Vous pouvez passer à la step-1-7 avec la commande ```git checkout step-1-7```
