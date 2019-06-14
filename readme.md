@@ -1,21 +1,17 @@
-# WeDrive API - Step 1-6 - Code.BZH 2019
+# WeDrive API - Step 2-1 - Code.BZH 2019
 
-Dans cette première partie, nous faisons surtout de la configuration et poser les bases pour notre API. 
+Dans cette deuxième partie, nous allons commencer à jouer un peu plus avec Express et commener notre API. 
 
-Ici l'objectif va être de configurer un peu plus notre environnement de développement.
-
-Pour cela, on va installer et configurer deux outils utile pour améliorer la qualité de notre code : 
-
-- Prettier : [Site](https://prettier.io/)
-
-- ESLint : [Site](https://eslint.org/)
+Pour cela, nous allons créer l'ensemble de nos routes. 
 
 ## Qu'est-ce qu'il faut faire ? 
 
-- Installer ESLint
-- Installer Prettier 
+- Définir l'ensemble des routes par rapport à nos ressources
+- Créer dans le dossier ``src/routes/``un fichier par ressource 
+- Créer les routes pour chacune des ressources reproduisant le schéma CRUD
 
+Pour vous aider, consulter la documentation d'Express : (Documentation)[https://expressjs.com/fr/guide/routing.html]
 
 ## Et ensuite ? 
 
-Vous avez fini ? Bravo ! Vous pouvez passer à la step-2-1 avec la commande ```git checkout step-2-1```
+Vous avez fini ? Bravo ! Vous pouvez passer à la step-3-1 avec la commande ```git checkout step-3-1```
