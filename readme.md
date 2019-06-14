@@ -1,21 +1,15 @@
-# WeDrive API - Step 1-6 - Code.BZH 2019
+# WeDrive API - Step 1-7 - Code.BZH 2019
 
 Dans cette première partie, nous faisons surtout de la configuration et poser les bases pour notre API. 
 
-Ici l'objectif va être de configurer un peu plus notre environnement de développement.
+Ici nous allons installer (babel)[https://babeljs.io/] qui est une suite d'outils permettant d'utiliser les standardisations plus récente du JS, à savoir ES6/ES7/ES8/...
 
-Pour cela, on va installer et configurer deux outils utile pour améliorer la qualité de notre code : 
-
-- Prettier : [Site](https://prettier.io/)
-
-- ESLint : [Site](https://eslint.org/)
 
 ## Qu'est-ce qu'il faut faire ? 
 
-- Installer ESLint
-- Installer Prettier 
+- lancer cette commande : ``npm install babel-cli babel-preset-env babel-loader babel-core --save-dev``
 
 
 ## Et ensuite ? 
 
-Vous avez fini ? Bravo ! Vous pouvez passer à la step-2-1 avec la commande ```git checkout step-2-1```
+Vous avez fini ? Bravo ! Vous pouvez passer à la step-1-8 avec la commande ```git checkout step-1-8```
