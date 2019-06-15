@@ -2,28 +2,16 @@
 
 Dans cette deuxième partie, nous allons commencer à jouer un peu plus avec Express et commencer notre API. 
 
-Dans le cadre du projet, nous avons défini 4 ressources accessibles à travers l'API : 
+Maintenant que nous avons notre liste de routes dans le fichier server.js, nous pouvons remarquer qu'il devient de plus en plus illisible du fait d'un nombre important de routes dans le même fichier. 
 
-- User
-- Center
-- Location
-- Car
-
-Chacune des ressources doit disposer de 5 routes : 
-
-- CREATE : Création d'une ressource
-- READ : Lecture d'une ressource
-- UPDATE : Modification d'une ressource
-- DELETE : Delete d'une ressource
-- LIST : Liste de l'ensemble des ressources
-
-Nous allons créer l'ensemble de nos routes avec Express. Pour le moment, chacune de ses routes renverra un message du type "*action* de la ressource" de la même manière que la première route "/" renvoyais "Hello World !".
+Afin de mieux structurer notre code, nous allons créer un fichier de routes par ressource dans le dossiers "Routes".
 
 ## Qu'est-ce qu'il faut faire ? 
 
-Dans le fichier server.js : 
-
-- Créer le reste des routes pour les ressources Center, Car, Location
+- Créer un fichier "users.js" dans le dossier "routes"
+- Déplacer les routes concernant la ressource "User"
+- Adapter le code en utilisant la classe ``express.Router``
+- Modifier le fichier ``server.js`` pour prendre en compte ses modifications
 
 Pour vous aider, consulter la documentation d'Express : (Documentation)[https://expressjs.com/fr/guide/routing.html]
 
