@@ -3,7 +3,11 @@ const app = express();
 
 const routes = require('./routes');
 
-app.use('/',routes)
+app.use('/v1',routes)
+
+app.get('/', function (req, res) {
+  res.send('Hello World!')
+});
 
 app.listen(3000, function () {
     console.log('Example app listening on port 3000!')

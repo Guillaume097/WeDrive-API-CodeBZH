@@ -5,10 +5,6 @@ const routerLocations = require('./locations')
 const routerUsers = require('./users')
 const routerCenters = require('./centers')
 
-routes.get('/', function (req, res) {
-    res.send('Hello World!')
-});
-
 routes.use('/',routerCars)
 routes.use('/',routerLocations)
 routes.use('/',routerUsers)
