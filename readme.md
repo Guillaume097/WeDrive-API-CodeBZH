@@ -1,14 +1,17 @@
 # WeDrive API - Step 2-6 - Code.BZH 2019
 
-Dans cette deuxième partie, nous allons commencer à jouer un peu plus avec Express et commencer notre API. 
+Nous y sommes presques ! 
 
-Maintenant que nous avons notre liste de routes dans le fichier server.js, nous pouvons remarquer qu'il devient de plus en plus illisible du fait d'un nombre important de routes dans le même fichier. 
+Nous voulons que toute route dans le dossier "routes" possède le terme 'v1' dans l'url sans forcément devoir à le ré-écrire à chaque fois dans chacune des routes.
 
-Afin de mieux structurer notre code, nous allons créer un fichier de routes par ressource dans le dossiers "Routes".
+Pour ce faire, nous allons créer un fichier ``index.js`` dans le dossier "routes" qui contiendra l'ensemble des importations des autres ressources, c'est à dire une partie de notre fichier ``server.js`` modifié auparavant.
+
 
 ## Qu'est-ce qu'il faut faire ? 
 
-- Refaire l'étape précédente pour les autres ressources Car/Location/Center
+- Créer le fichier index.js dans routes
+- Modifier le server.js pour prendre en compte ses modifications
+- Faire en sorte qu'il y a le "v1" comme indiqué plus haut
 
 Pour vous aider, consulter la documentation d'Express : (Documentation)[https://expressjs.com/fr/guide/routing.html]
 
