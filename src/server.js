@@ -1,6 +1,10 @@
 const express = require('express');
 const app = express();
 
+app.get('/v1/user', function (req, res) {
+  res.send('Liste des utilisateurs')
+})
+
 app.get('/', function (req, res) {
   res.send('Hello World!')
 })

@@ -1,4 +1,4 @@
-# WeDrive API - Step 2-1 - Code.BZH 2019
+# WeDrive API - Step 2-2 - Code.BZH 2019
 
 Dans cette deuxième partie, nous allons commencer à jouer un peu plus avec Express et commencer notre API. 
 
@@ -23,10 +23,12 @@ Nous allons créer l'ensemble de nos routes avec Express. Pour le moment, chacun
 
 Dans le fichier server.js : 
 
-- Créer une nouvelle route dont l'url sera 'http://localhost:3000/v1/user' et qui renvoi un message "Liste de l'ensemble des utilisateurs"
+- Créer le reste des routes pour la ressource "User" sachant que nous avons déjà créer l'action "LIST"
 
 Pour vous aider, consulter la documentation d'Express : (Documentation)[https://expressjs.com/fr/guide/routing.html]
 
+Pour tester vos routes, je vous encourage à utiliser Postman.
+
 ## Et ensuite ? 
 
-Vous avez fini ? Bravo ! Vous pouvez passer à la step-2-2 avec la commande ```git checkout step-2-2```
+Vous avez fini ? Bravo ! Vous pouvez passer à la step-2-3 avec la commande ```git checkout step-2-3```
