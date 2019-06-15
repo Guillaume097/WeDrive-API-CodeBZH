@@ -23,7 +23,7 @@ Nous allons créer l'ensemble de nos routes avec Express. Pour le moment, chacun
 
 Dans le fichier server.js : 
 
-- Créer le reste des routes pour la ressource "User" sachant que nous avons déjà créer l'action "LIST"
+- Créer le reste des routes pour les ressources Center, Car, Location
 
 Pour vous aider, consulter la documentation d'Express : (Documentation)[https://expressjs.com/fr/guide/routing.html]
 
