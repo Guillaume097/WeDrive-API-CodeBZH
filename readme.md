@@ -1,4 +1,4 @@
-# WeDrive API - Step 2-2 - Code.BZH 2019
+# WeDrive API - Step 2-4 - Code.BZH 2019
 
 Dans cette deuxième partie, nous allons commencer à jouer un peu plus avec Express et commencer notre API. 
 
@@ -31,4 +31,4 @@ Pour tester vos routes, je vous encourage à utiliser Postman.
 
 ## Et ensuite ? 
 
-Vous avez fini ? Bravo ! Vous pouvez passer à la step-2-3 avec la commande ```git checkout step-2-3```
+Vous avez fini ? Bravo ! Vous pouvez passer à la step-2-5 avec la commande ```git checkout step-2-5```
