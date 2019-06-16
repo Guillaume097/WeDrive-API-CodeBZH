@@ -1,66 +1,27 @@
-# WeDrive API - Step 3-5 - Code.BZH 2019
+# WeDrive API - Step 4-1 - Code.BZH 2019
 
-Désormais, nous allons commencer à faire le lien avec nos différentes ressources (Car,User,Location,Center). Mais avant de passer à la création de la base de donnée, nous allons décrire les modèles avec un outil de validation du nom de ``Joi``.
+Après avoir défini nos modèles ainsi que leurs règles de validation, nous allons rentrer dans le coeur de la réalisation de notre API. A savoir, la connexion avec la base de donnée.
+
+Dans un premier temps, nous allons utiliser directement le driver node-mongo. 
 
 ## Qu'est-ce qu'il faut faire ? 
 
-- Reproduisez les étapes 3-1 (schéma) et 3-2 (validation) avec la ressource Location
+- Exécutez un ``npm install mongodb --save`` pour installer le node-mongo
+- Dans le dossier 'models', créer un fichier ``index.js``
+- À l'intérieur, créez une méthode ``connectDB`` qui va ouvrir une connexion à la base de donnée "wedrive" en utilisant *Async/Await* et retournez un objet comportant ``client`` (la connexion) et ``db`` (la base de donnée)
+- À l'intérieur, créez une méthode ``close`` qui va stopper la connexion à la base de donnée "wedrive" en utilisant *Async/Await*
 
-La ressource Location comprend ses champs : 
-```
-{
-    startDate: null,
-    endDate:null,
-    car:{
-        _id:null,
-        name:'',
-        marque: '',
-        model:'',
-        details:'',
-        registration:{
-            country:'',
-            date:''
-        },
-        owner:{
-            _id:null,
-            firstname:'',
-            lastname:'',
-            email:''
-        }
-    },
-    user:{
-        _id:null,
-        firstname:'',
-        lastname:'',
-        email:''
-    },
-    review:{
-        _id:null,
-        source:'',
-        evaluation:'',
-        date:null,
-        stars:Number,
-        approved:null
-    },
-    payment:{
-        _id:null,
-        emitOn:null,
-        card:{
-            name:'',
-            type:'',
-            number:'',
-            expiration:null
-        },
-        payOn:null
-    }
-}
-```
+Pour utiliser vos méthodes, dans le fichier de route ``centers.js`` dans la méthode de création d'un 'center' dans la partie après la validation correcte, essayez d'ouvrir une connection avec la base de donnée.
 
-Pour vous aider, consultez la documentation de Joi : [Documentation](https://github.com/hapijs/joi)
+Voici un exemple de code qui utilise la méthode ``connectDB`` :
+
+![Image](https://github.com/TonyCois/WeDrive-API-CodeBZH/blob/step-1-3/assets/img/hello.png)
+
+Pour vous aider, consultez la documentation du driver Mongo : [Documentation](https://mongodb.github.io/node-mongodb-native/)
 
 Pour vous aider, consultez la documentation d'Express : [Documentation](https://expressjs.com/fr/guide/routing.html)
 
 
 ## Et ensuite ? 
 
-Vous avez fini ? Bravo ! Vous pouvez passer à la step-4-1 avec la commande ```git checkout step-4-1```
+Vous avez fini ? Bravo ! Vous pouvez passer à la step-4-2 avec la commande ```git checkout step-4-2```
