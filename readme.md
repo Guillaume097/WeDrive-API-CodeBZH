@@ -1,36 +1,57 @@
-# WeDrive API - Step 3-3 - Code.BZH 2019
+# WeDrive API - Step 3-4 - Code.BZH 2019
 
 Désormais, nous allons commencer à faire le lien avec nos différentes ressources (Car,User,Location,Center). Mais avant de passer à la création de la base de donnée, nous allons décrire les modèles avec un outil de validation du nom de ``Joi``.
 
 ## Qu'est-ce qu'il faut faire ? 
 
-- Reproduisez les étapes 3-1 (schéma) et 3-2 (validation) avec la ressource User
+- Reproduisez les étapes 3-1 (schéma) et 3-2 (validation) avec la ressource Car
 
-La ressource User comprend ses champs : 
+La ressource Car comprend ses champs : 
 ```
 {
-    picture: '',
-    firstname: '',
-    lastname: '',
-    birthday:{
-        date:null,
-        city:''
+    marque: '',
+    model:'',
+    details:'',
+    registration:{
+        country:'',
+        date:''
     },
-    permit:{
-        number:'',
-        country:'
-    },
-    mail:'',
-    password:'',
-    phone:'',
+    seats:null,
+    doors:null,
+    energy:'',
+    gearbox:'',
+    kilometers:null,
+    clim:null,
+    regulator:null,
+    gps:null,
+    baby:null,
+    roof:null,
+    bike:null,
+    snow:null,
+    chains:null,
+    ski:null,
+    cd:null,
+    description:'',
+    conditions:'',
+    price:'',
+    pictures:[],
+    available:null,
     address:{
         city:'',
-        country:'',
         address:'',
-        postalCode:'',
-        other:''
+        postalCode:''
     },
-    information:''
+    owner:{
+        _id:null,
+        firstname:'',
+        lastname:'',
+        email:''
+    },
+    center:{
+        _id:null,
+        name:''
+    },
+    locations:[]
 }
 ```
 
@@ -41,4 +62,4 @@ Pour vous aider, consultez la documentation d'Express : [Documentation](https://
 
 ## Et ensuite ? 
 
-Vous avez fini ? Bravo ! Vous pouvez passer à la step-3-4 avec la commande ```git checkout step-3-4```
+Vous avez fini ? Bravo ! Vous pouvez passer à la step-3-5 avec la commande ```git checkout step-3-5```
