@@ -1,4 +1,4 @@
-# WeDrive API - Step 3-1 - Code.BZH 2019
+# WeDrive API - Step 3-2 - Code.BZH 2019
 
 Désormais, nous allons commencer à faire le lien avec nos différentes ressources (Car,User,Location,Center). Mais avant de passer à la création de la base de donnée, nous allons décrire les modèles avec un outil de validation du nom de ``Joi``.
 
