@@ -14,7 +14,6 @@ routerCenters.post('/center', function (req, res) {
     }else {
         res.send(value);
     }
-    
 });
 
 routerCenters.get('/center/:id', function (req, res) {
