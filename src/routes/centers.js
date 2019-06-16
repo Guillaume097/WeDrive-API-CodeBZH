@@ -13,7 +13,16 @@ routerCenters.post('/center', function (req, res) {
         console.log(error)
         res.send('Erreur lors de la création du CAA');
     }else {
-        res.send(value);
+        (async () => {
+            //On créé une instance de la base
+            const { db, client } = await connectDB();
+   
+        })().then((center) => {
+            res.send(center);
+        }).catch((err) => {
+            console.log(err);
+            res.send('Erreur lors de la création du CAA en base');
+        })
     }
 });
 
