@@ -19,6 +19,7 @@
   "dependencies": {
     "@hapi/joi": "^15.0.3",
     "express": "4.17.1",
+    "mongodb": "^3.2.7",
     "mongoose": "5.5.15"
   },
   "devDependencies": {
