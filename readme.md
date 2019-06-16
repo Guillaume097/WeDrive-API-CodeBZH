@@ -63,4 +63,4 @@ Pour vous aider, consultez la documentation d'Express : [Documentation](https://
 
 ## Et ensuite ? 
 
-Vous avez fini ? Bravo ! Vous pouvez passer à la step-3-6 avec la commande ```git checkout step-3-6```
+Vous avez fini ? Bravo ! Vous pouvez passer à la step-4-1 avec la commande ```git checkout step-4-1```
