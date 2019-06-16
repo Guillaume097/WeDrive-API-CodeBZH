@@ -17,4 +17,4 @@ Pour vous aider, consultez la documentation d'Express : [Documentation](https://
 
 ## Et ensuite ? 
 
-Vous avez fini ? Bravo ! Vous pouvez passer à la step-4-4 avec la commande ```git checkout step-4-5```
+Vous avez fini ? Bravo ! Vous pouvez passer à la step-4-5 avec la commande ```git checkout step-4-5```
