@@ -16,6 +16,21 @@ routerCenters.post('/center', function (req, res) {
         (async () => {
             //On créé une instance de la base
             const { db, client } = await connectDB();
+
+            //On récupère la collection 'centers'
+            const collection = db.collection('centers'); 
+
+            //On récupère le resultat de l'insertion
+            let result = await collection.insertOne(value);
+
+            //On récupère notre 'center'
+            let center = result.ops[0];
+
+            //On ferme la connexion après traitement
+            await client.close();
+
+            //On renvoit le 'center' comprenant maintenant un _id
+            return center;
    
         })().then((center) => {
             res.send(center);
