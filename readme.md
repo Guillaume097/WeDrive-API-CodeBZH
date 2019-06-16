@@ -50,8 +50,7 @@ La ressource Car comprend ses champs :
     center:{
         _id:null,
         name:''
-    },
-    locations:[]
+    }
 }
 ```
 
