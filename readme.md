@@ -15,7 +15,7 @@ Pour utiliser vos méthodes, dans le fichier de route ``centers.js`` dans la mé
 
 Voici un exemple de code qui utilise la méthode ``connectDB`` :
 
-![Image](https://github.com/TonyCois/WeDrive-API-CodeBZH/blob/step-1-3/assets/img/hello3.png)
+![Image](https://github.com/TonyCois/WeDrive-API-CodeBZH/blob/step-4-1/assets/img/hello3.png)
 
 Pour vous aider, consultez la documentation du driver Mongo : [Documentation](https://mongodb.github.io/node-mongodb-native/)
 
