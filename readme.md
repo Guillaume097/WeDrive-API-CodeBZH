@@ -8,7 +8,7 @@ Dans un premier temps, nous allons utiliser directement le driver node-mongo.
 
 Dans le fichier ``centers.js`` dans le dossier 'routes' :
 
-- Lire une ressource 'center' avec la méthode ``collection.findOne()`` et avec un paramètre dans l'url qui est l'ObjectId de la ressource, ce qui donnera une url ``http://localhost:3000/v1/center/5d06bbd2d69dd4573116e2be``
+- Mettre à jour une ressource 'center' avec la méthode ``collection.updateOne()`` et avec un paramètre dans l'url qui est l'ObjectId de la ressource, ce qui donnera une url ``http://localhost:3000/v1/center/5d06bbd2d69dd4573116e2be``
 
 Pour vous aider, consultez la documentation du driver Mongo : [Documentation](https://mongodb.github.io/node-mongodb-native/)
 
