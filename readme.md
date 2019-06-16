@@ -7,6 +7,7 @@ Désormais, nous allons commencer à faire le lien avec nos différentes ressour
 - Installez ``Joi``
 - Créez un fichier ``center.js`` dans le dossier "models"
 - Définissez un schéma pour la ressource Center qui comporte ces champs : name,postalCode,address,city,phone
+- Définissez aussi les règles des champs : required, nombre de caractères, ...
 
 Pour vous aider, consultez la documentation de Joi : [Documentation](https://github.com/hapijs/joi)
 
